@@ -18,8 +18,8 @@ public class Meraldajewellers {
 		Thread.sleep(2000);
 		driver.findElement(By.name("first_name")).sendKeys("RamKumar");
 		driver.findElement(By.xpath("//input[@name='last_name']")).sendKeys("KV");
-		driver.findElement(By.name("email")).sendKeys("ramukmar189@gmail.com");
-		driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("8611215548");
+		driver.findElement(By.name("email")).sendKeys("ramukmar1111@gmail.com");
+		driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("8611215540");
 		
 		JavascriptExecutor jse= (JavascriptExecutor) driver;
 	    jse.executeScript("window.scrollBy(0,200)");
@@ -47,8 +47,8 @@ public class Meraldajewellers {
 		
 		driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr/td/div[1][contains(text(),\"17\")]")).click();
 		
-		driver.findElement(By.name("password")).sendKeys("Searchingforjob");
-		driver.findElement(By.xpath("//input[@placeholder='Confirm password']")).sendKeys("Searchingforjob");
+		driver.findElement(By.name("password")).sendKeys("jobsearch");
+		driver.findElement(By.xpath("//input[@placeholder='Confirm password']")).sendKeys("jobsearch");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		System.out.println("Registered successfully");
 		Thread.sleep(2000);
@@ -59,8 +59,8 @@ public class Meraldajewellers {
         System.out.println("Logged in successfully");
         driver.findElement(By.xpath("/html[1]/body[1]/div[1]/header[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/a[1]/img[1]")).click();
         Thread.sleep(2000);
-        driver.findElement(By.name("username")).sendKeys("8611215548");
-        driver.findElement(By.name("password")).sendKeys("Searchingforjob");
+        driver.findElement(By.name("username")).sendKeys("8611215540");
+        driver.findElement(By.name("password")).sendKeys("jobsearch");
         driver.findElement(By.xpath("//button[contains(text(),'Login')]")).click();
         driver.close();
         
